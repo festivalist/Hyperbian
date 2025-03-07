@@ -6,9 +6,8 @@ Raspberry 3 or 4 hyperbian configuration &amp; description
 3. SSH in
 4. use credentials User: hyperion, Password: ambientlight
 5. run the following command to start hyperion web interface
-# old 6. sudo /usr/share/hyperion/bin/hyperiond
-7. sudo systemctl disable --now hyperion@pi
-8. sudo systemctl enable --now hyperion@root
+6. sudo systemctl disable --now hyperion@pi
+7. sudo systemctl enable --now hyperion@root
 
 
 Alternative
@@ -23,3 +22,13 @@ Alternative
 8. sudo systemctl daemon-reload
 9. sudo service hyperhdr@pi restart
 10. sudo service hyperhdr@pi status
+
+
+Leds:
+top: 72
+bottom: 71
+left: 41
+right: 40
+
+
+
