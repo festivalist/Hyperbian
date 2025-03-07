@@ -17,8 +17,8 @@ Alternative
 2. boot and wait
 3. ssh in
 4. sudo apt update && sudo apt upgrade -y
-5. wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-`uname -m`.deb
-6. sudo apt install ./HyperHDR-20.0.0.0-Linux-`uname -m`.deb
+5. wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb
+6. sudo apt install ./HyperHDR-20.0.0.0-Linux-aarch64.deb
 7. sudo sed -i '/^User/d' /etc/systemd/system/hyperhdr\@.service
 8. sudo systemctl daemon-reload
 9. sudo service hyperhdr@pi restart
