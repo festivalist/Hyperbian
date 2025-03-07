@@ -11,5 +11,15 @@ Raspberry 3 or 4 hyperbian configuration &amp; description
 8. sudo systemctl enable --now hyperion@root
 
 
-config hyperbian:
-tbc
+Alternative
+
+1. Flash rapberry pi os lite 64 bit to cd card
+2. boot and wait
+3. ssh in
+4. sudo apt update && sudo apt upgrade -y
+5. wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-`uname -m`.deb
+6. sudo apt install ./HyperHDR-20.0.0.0-Linux-`uname -m`.deb
+7. sudo sed -i '/^User/d' /etc/systemd/system/hyperhdr\@.service
+8. sudo systemctl daemon-reload
+9. sudo service hyperhdr@pi restart
+10. sudo service hyperhdr@pi status
