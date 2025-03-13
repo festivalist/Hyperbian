@@ -10,7 +10,7 @@ Raspberry 3 or 4 hyperbian configuration &amp; description
 7. sudo systemctl enable --now hyperion@root
 
 
-Alternative
+Alternative testing on raspi 4
 
 1. Flash rapberry pi os lite 64 bit to cd card
 2. boot and wait
@@ -18,28 +18,48 @@ Alternative
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-```wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb
+```
+wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb
+```
+```
+wget https://github.com/awawa-dev/HyperHDR/releases/download/v21.0.0.0beta2/HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb
+```
+```
+wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-aarch64.tar.gz
 ```
 
-```wget https://github.com/awawa-dev/HyperHDR/releases/download/v21.0.0.0beta2/HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb```
-
-```wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-aarch64.tar.gz```
-
 
 Raspi 3b+
-```wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-armv6l.deb```
-```sudo apt install ./HyperHDR-20.0.0.0-Linux-aarch64.deb```
-```sudo apt install ./HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb```
+```
+wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-armv6l.deb
+```
+```
+sudo apt install ./HyperHDR-20.0.0.0-Linux-aarch64.deb
+```
+```
+sudo apt install ./HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb
+```
 
-```sudo apt install ./HyperHDR-19.0.0.0-Linux-aarch64.tar.gz```
+```
+sudo apt install ./HyperHDR-19.0.0.0-Linux-aarch64.tar.gz
+```
 
 Raspi 3b+
-```sudo apt install ./HyperHDR-19.0.0.0-Linux-armv6l.deb```
-```sudo sed -i '/^User/d' /etc/systemd/system/hyperhdr\@.service```
-```sudo systemctl daemon-reload```
-15. sudo service hyperhdr@pi restart
-16. sudo service hyperhdr@pi status
-
+```
+sudo apt install ./HyperHDR-19.0.0.0-Linux-armv6l.deb
+```
+```
+sudo sed -i '/^User/d' /etc/systemd/system/hyperhdr\@.service
+```
+```
+sudo systemctl daemon-reload
+```
+```
+sudo service hyperhdr@pi restart
+```
+```
+sudo service hyperhdr@pi status
+```
 
 Leds:
 top: 72
