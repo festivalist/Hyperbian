@@ -18,34 +18,19 @@ Alternative
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb
-```
+```wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb```
 
-```
-wget https://github.com/awawa-dev/HyperHDR/releases/download/v21.0.0.0beta2/HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb
-```
+```wget https://github.com/awawa-dev/HyperHDR/releases/download/v21.0.0.0beta2/HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb```
 
-```
-wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-aarch64.tar.gz
-```
+```wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-aarch64.tar.gz```
 
 
 Raspi 3b+
-```
-wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-armv6l.deb
-```
+```wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-armv6l.deb```
+```sudo apt install ./HyperHDR-20.0.0.0-Linux-aarch64.deb```
+```sudo apt install ./HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb```
 
-```
-sudo apt install ./HyperHDR-20.0.0.0-Linux-aarch64.deb
-```
-
-```
-sudo apt install ./HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb
-```
-
-```
-sudo apt install ./HyperHDR-19.0.0.0-Linux-aarch64.tar.gz
-```
+```sudo apt install ./HyperHDR-19.0.0.0-Linux-aarch64.tar.gz```
 
 Raspi 3b+
 ```sudo apt install ./HyperHDR-19.0.0.0-Linux-armv6l.deb```
