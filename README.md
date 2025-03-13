@@ -18,20 +18,39 @@ Alternative
 ```
 sudo apt update && sudo apt upgrade -y
 ```
-6. wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb
-7. wget https://github.com/awawa-dev/HyperHDR/releases/download/v21.0.0.0beta2/HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb
-8. wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-aarch64.tar.gz
+wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb
+```
+
+```
+wget https://github.com/awawa-dev/HyperHDR/releases/download/v21.0.0.0beta2/HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb
+```
+
+```
+wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-aarch64.tar.gz
+```
+
 
 Raspi 3b+
-8. wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-armv6l.deb
-9. sudo apt install ./HyperHDR-20.0.0.0-Linux-aarch64.deb
-10. sudo apt install ./HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb
-11. sudo apt install ./HyperHDR-19.0.0.0-Linux-aarch64.tar.gz
+```
+wget https://github.com/awawa-dev/HyperHDR/releases/download/v19.0.0.0/HyperHDR-19.0.0.0-Linux-armv6l.deb
+```
+
+```
+sudo apt install ./HyperHDR-20.0.0.0-Linux-aarch64.deb
+```
+
+```
+sudo apt install ./HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb
+```
+
+```
+sudo apt install ./HyperHDR-19.0.0.0-Linux-aarch64.tar.gz
+```
 
 Raspi 3b+
-12. sudo apt install ./HyperHDR-19.0.0.0-Linux-armv6l.deb
-13. sudo sed -i '/^User/d' /etc/systemd/system/hyperhdr\@.service
-14. sudo systemctl daemon-reload
+```sudo apt install ./HyperHDR-19.0.0.0-Linux-armv6l.deb```
+```sudo sed -i '/^User/d' /etc/systemd/system/hyperhdr\@.service```
+```sudo systemctl daemon-reload```
 15. sudo service hyperhdr@pi restart
 16. sudo service hyperhdr@pi status
 
