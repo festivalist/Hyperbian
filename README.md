@@ -19,7 +19,7 @@ Alternative testing on raspi 4
 sudo apt update && sudo apt upgrade -y
 ```
 ```
-** wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb **
+wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb
 ```
 
 ```
@@ -38,6 +38,11 @@ old
 sudo apt install ./HyperHDR-19.0.0.0-Linux-armv6l.deb
 sudo apt install ./HyperHDR-21.0.0.0.bookworm.beta2-aarch64.deb
 ```
+```
+sudo nano /etc/systemd/system/hyperhdr@.service
+```
+Now arrow down to the line that says ```User=%i```. Press CTRL+K to DELETE this line. Then press CTRL+S to save, and CTRL+X to exit.
+
 
 
 ```
