@@ -19,7 +19,7 @@ Alternative testing on raspi 4
 sudo apt update && sudo apt upgrade -y
 ```
 ```
-**wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb**
+** wget https://github.com/awawa-dev/HyperHDR/releases/download/v20.0.0.0/HyperHDR-20.0.0.0-Linux-aarch64.deb **
 ```
 
 ```
