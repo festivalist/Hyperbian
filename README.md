@@ -66,6 +66,8 @@ top: 72
 bottom: 71
 left: 41
 right: 40
+input position: 183
+Mode: brg oder grb (jeweils zweiter teil rot)
 
 
 
