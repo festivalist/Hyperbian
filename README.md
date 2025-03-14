@@ -9,7 +9,7 @@ Raspberry 3 or 4 hyperbian configuration &amp; description
 6. sudo systemctl disable --now hyperion@pi
 7. sudo systemctl enable --now hyperion@root
 ___________________________________________________________________
-Variante Everything Smart Home, Raspberry pi 3b+
+# Variante Everything Smart Home, Raspberry pi 3b+
 Image: 2021-05-07-raspios-buster-armhf
 
 github: https://gist.github.com/EverythingSmartHome/e4151d7e9b7c1c953a72ddb536730c6d
@@ -40,7 +40,7 @@ sudo service hyperhdr@pi status
 
 
 ___________________________________________________________________
-Alternative testing on raspi 4
+# Alternative testing on raspi 4
 
 1. Flash rapberry pi os lite 64 bit to cd card
 2. boot and wait
